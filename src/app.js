@@ -21,7 +21,7 @@ app.get('/help',(req,res)=>{
 })
  
 app.get('*',(req,res)=>{
-    res.send('My 404 Page')
+    res.send('My 404 Page');
 })
 app.listen(3000, () => {
     console.log('Server is up on port 3000.')
